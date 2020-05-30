@@ -1,4 +1,4 @@
-
+console.log('The client side folder is Loaded!')
 const getWeather = async (address) => {
     const data = await fetch(`http://localhost:1303/weather?address=${address}`)
     return data.json()
