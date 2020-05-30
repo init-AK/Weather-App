@@ -6,7 +6,7 @@ const getWeather = require('./utils/weather')
 
 const app = express()
 
-const port = process.env.PORT || 740
+const port = process.env.PORT || 745
 
 //Defining The Paths
 const publicPath = path.join(__dirname, '../public')

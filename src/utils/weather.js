@@ -12,7 +12,7 @@ const getWeather = (lon, lat, callback) => {
             callback(response.body.error.info)
         } else {
             const data = response.body.current
-            callback(undefined, `${data.weather_descriptions[0]}. It is ${data.temperature} degrees out , but feels like ${data.feelslike}.`
+            callback(undefined, `${data.weather_descriptions[0]}. It is ${data.temperature} degrees out , but feels like ${data.feelslike}. The humidity level is ${data.humidity} gpcc.`
             )
         }
     })
