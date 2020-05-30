@@ -87,7 +87,7 @@ app.get('*',(req,res) => {
     })
 })
 
-const PORT = process.env.PORT || 720
+const PORT = process.env.PORT || 740
 //LISTENING to the Server at PORT
 app.listen(PORT, () => {
     console.log(`Server is up and running on port:${PORT}`)
